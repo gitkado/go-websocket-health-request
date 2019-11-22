@@ -1,0 +1,2 @@
+# go-websocket-health-request
+goでwebsocketサーバへconnectionしてjsonrpcプロトコルにそってhealthリクエストを投げ続ける
