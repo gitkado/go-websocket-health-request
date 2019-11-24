@@ -4,5 +4,5 @@ goでwebsocketサーバへconnectionしてjsonrpcプロトコルにそってheal
 
 ```sh
 # 実行コマンド
-docker run -it --rm -v /vagrant_shared/gotest:/opt golang:websocket-client go run gotest.go
+docker run -it --rm -v $PWD:/opt golang:websocket-client go run gotest.go
 ```
